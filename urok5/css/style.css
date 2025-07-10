@@ -1,0 +1,39 @@
+body {
+    font-size: 30px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.block,
+.inline {
+    background: rgb(255, 238, 165);
+}
+
+.block {
+    padding: 30px;
+    margin: 50px;
+}
+
+/* ==============================================================*/
+
+.block {
+    border-radius: 50px;
+    display: inline-block;
+    width: 400px;
+    box-shadow: inset 10px 0 50px #000;
+}
+
+.abc {
+    padding-top: 25px;
+    padding-left: 30px;
+}
+
+.block-1 {
+    width: 2200px;
+    height: 1200px;
+    overflow: scroll;
+    border-radius: 100px;
+    box-shadow: inset 5px 0 40px #78a3ff;
+}
